@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Visit my Factory</title>
+
+<link rel="stylesheet" type="text/css" href="css/menu.css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script src="js/number_input.js"></script>
+<link rel="stylesheet" type="text/css" href="css/drop_menu.css" />
+
+<!--for flag-->
+
+<!-- <msdropdown> -->
+<link rel="stylesheet" type="text/css" href="css/dd.css" />
+<script src="js/msdropdown/jquery.dd.js"></script>
+<!-- </msdropdown> -->
+
+
+<link rel="stylesheet" type="text/css" href="css/skin2.css" />
+<link rel="stylesheet" type="text/css" href="css/flags.css" />
+<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="css/messages.css" />
+<!--flag end-->
+
+<link rel="Icon" href="images/icon/favicon.ico" type="image/x-icon"  />
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/event.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/styles_leftmenu.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="css/auth.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/login.css" type="text/css" media="screen" />
+
+<!-- gallery-->
+ <link href="css/galleria.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.galleria.pack.js"></script>
+	<style>
+.modal-content{
+width: 500px;
+text-align:center;
+   
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    margin-top: 4em;
+    position: fixed;
+    background: #fff;
+    color: #3e3d3d;
+    border-radius: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 6px solid #7c0000;
+    padding: 0 30px 30px 30px;
+}
+</style>
+    
+</head>
+
+
+<body>
+<button id="myBtn" class="">login</button>
+
+<!-- The Modal -->
+<div id="popup" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     
+     
+     <h1><span class="title">Come! </span><br />See Behind the Scenes</h1>
+   
+   <p><a href="index.php">>> Check out our new events</a></p>
+   
+   
+    
+  </div><!--modal-content-->
+</div>
+<script>
+	// Get the modal
+	var modal = document.getElementById('popup');
+	
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn");
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+	
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+		modal.style.display = "block";
+	}
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+	
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+</script>
+</body>
+
+</html>
